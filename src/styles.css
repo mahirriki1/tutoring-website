@@ -1,3 +1,21 @@
-.welcome {
-  color: rgb(60, 75, 47);
-}
+.float-email-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #008CBA; /* Change this to your preferred color */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .float-email-button:hover {
+    background-color: white;
+    color: black;
+  }
